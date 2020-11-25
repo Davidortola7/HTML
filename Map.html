@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "es">
+  <head>
+    <meta charset = "UTF-8" />
+    <title>Mapa html</title>
+  </head>
+  <body>
+	<h1>Bienvenido al mapa</h1>
+	
+	<p>Pulsa en la bola amarilla para ir a la tienda de billares.</p>
+	<p>Pulsa en el centro de la imagen para ir a la pagina web "Birdwatching".</p>
+	<p>Pulsa en la negra del fondo para ir al horario.</p>
+	
+  
+  <img src="1/Bolas.jpg" alt = "Mapa de imagenes" usemap = "#Bolas" width = "300" height = "214">
+  
+	<map name="Bolas">
+  
+		<area alt="Tienda de billares" coords="148,154,44" shape="circle" href = "https://billaresrufes.com/" />
+		
+		<area alt="" coords="148,59,142,49,135,41,128,38,121,34,125,25,135,16,155,11,177,19,188,27,187,36,177,39,168,46,162,52,160,61" shape="poly" href=" 1/Horario.html" />
+		
+		<area alt="" coords="11,77,288,105" shape="rect" href=" 1/Index.html" /> 
+		
+	</map>
+  </body>
+</html>

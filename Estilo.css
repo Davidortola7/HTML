@@ -1,0 +1,36 @@
+body{
+	background-color : #CCFFCC;
+	color : #0000FF;
+	font-family : Georgia, Cambria, serif;
+	font-size : 16px
+}
+
+h1{
+	color:#FF0000;
+	font-family: Verdana, Calibri, sans-serif;
+	font-size: 24px;
+}
+h2{
+	color:#CC0000;
+	font-size: 20px;
+}	
+	
+.dato{
+	color:#006600
+}
+
+.internet{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.web{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.HTMLCSS{
+	color:#FFFFFF;
+	background-color:#000000;
+	font-style:italic;
+}

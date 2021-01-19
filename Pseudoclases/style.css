@@ -1,0 +1,67 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 70%;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+	font-size : 30px;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+header {
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+main, header, nav, article, aside, footer, section {
+  padding: 1%;
+}
+
+section {
+  display: flex;
+}
+
+aside {
+  flex: 1;
+  margin-left: 130px;
+  padding: 1%;
+  border : black 1px solid;
+}
+
+form {
+	width :150%;
+	border : black 1px solid;
+	
+}
+.NomEmail{
+	
+	font-size: 25px;
+	font-weight: bold;
+	
+	
+}
+
+.Nom{
+	
+	font-size: 15px;
+	
+}
+
+.Enlaces{
+	
+	padding : 20px;
+	color : blue;
+	
+}
